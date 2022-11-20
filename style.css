@@ -81,7 +81,6 @@ header .navbar a:hover{
 }
 .home-content{
     margin-top: 20rem;
-
     max-width: 900px;
 }
 .home{
@@ -227,6 +226,24 @@ header .navbar a:hover{
 .footer .credit span{
     color: var(--red);
 }
+.form{
+    width: 100%;
+}
+.form input{
+    width: 90%;
+    padding: 2rem 1rem;
+    margin: 1rem;
+}
+.form #submit{
+    background: #5c1732;
+    color: #fff;
+    transition: 0.3s ease;
+}
+.form #submit:hover{
+    background: var(--light-color);
+}
+
+
 
 
 @media(max-width:650px){
